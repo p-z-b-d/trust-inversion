@@ -7,6 +7,14 @@ This repository contains the detector implementations, trust-aggregation schemes
 composition and attack simulation code, the T_meanvar_z defense, and the result
 tables needed to reproduce the paper's core findings.
 
+## Start here (for reviewers)
+
+The paper's three headline results are precomputed and inspectable without running anything:
+
+- **Composition grid** (detectors × attacks × trust schemes) — `results/phase4_grid.csv`
+- **Trust inversion** (the stochastic detector D5 driven below the honest baseline under active collusion) — `results/phase4_D5_inversion.csv`
+- **Mimicry threshold** (detection vs. per-edge noise, validating the predicted σ*) — `results/phase4_sigma_sweep.csv`
+
 ## Layout
 
 | Directory        | Contents |

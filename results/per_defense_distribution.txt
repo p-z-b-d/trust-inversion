@@ -1,0 +1,16 @@
+====================================================================================================
+Per-defense σ measurements (from raw per-window arrays, n_windows_per_edge=570)
+====================================================================================================
+Defense                folds          σ_pw[benign]          σ_pw[attack]    σ_edge[benign]
+------------------------------------------------------------------------------------------
+D1_RF                      5  0.0827 ± 0.0335    0.0189 ± 0.0042             0.00347
+D2_CNN                     5  0.0455 ± 0.0041    0.1304 ± 0.0188             0.00191
+D3_RHMD                    5  0.2533 ± 0.0042    0.2069 ± 0.0040             0.01061
+D4_MTD                     5  0.2227 ± 0.0154    0.1601 ± 0.0221             0.00933
+D5_Stochastic              5  0.2273 ± 0.0100    0.0807 ± 0.0057             0.00952
+D6_DRL                     5  0.1330 ± 0.0207    0.1368 ± 0.0149             0.00557
+
+Compare against the simulator's current SIGMA_EDGE_DEFAULT = 0.03
+(phase4_sim.py line 52) and the headline-grid value SIGMA = 0.15
+(grid_driver.py).  If sigma_edge_benign differs >2x from 0.15 for
+any defense, the headline grid should be re-run with per-defense σ.

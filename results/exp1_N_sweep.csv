@@ -1,0 +1,17 @@
+experiment,cell,defense,scheme,profile,forced_clique,N,sigma,n_seeds,tpr_mean,tpr_std,tpr_ci95,auc_mean,auc_ci95,gap_mean,gap_ci95
+N_sweep,AP4_dilution__D3_T1,D3_RHMD,T1_mean,AP4,False,20,0.15,100,0.866667,0.185017,0.036263,0.976538,0.008038,0.201567,0.006931
+N_sweep,AP4_dilution__D3_T1,D3_RHMD,T1_mean,AP4,False,50,0.15,100,0.999333,0.006667,0.001307,0.999829,0.000131,0.192149,0.002323
+N_sweep,AP4_dilution__D3_T1,D3_RHMD,T1_mean,AP4,False,100,0.15,100,1.0,0.0,0.0,1.0,0.0,0.194776,0.001029
+N_sweep,AP4_dilution__D3_T1,D3_RHMD,T1_mean,AP4,False,200,0.15,100,1.0,0.0,0.0,1.0,0.0,0.194649,0.000491
+N_sweep,AP5_mimicry__D3_T1,D3_RHMD,T1_mean,AP5,False,20,0.15,100,0.775,0.225201,0.044139,0.963407,0.008482,0.171229,0.00583
+N_sweep,AP5_mimicry__D3_T1,D3_RHMD,T1_mean,AP5,False,50,0.15,100,0.988667,0.028513,0.005589,0.999314,0.000373,0.176505,0.002365
+N_sweep,AP5_mimicry__D3_T1,D3_RHMD,T1_mean,AP5,False,100,0.15,100,1.0,0.0,0.0,1.0,0.0,0.175938,0.00107
+N_sweep,AP5_mimicry__D3_T1,D3_RHMD,T1_mean,AP5,False,200,0.15,100,1.0,0.0,0.0,1.0,0.0,0.176248,0.000532
+N_sweep,AP6c_inversion__D5_T1,D5_Stochastic,T1_mean,AP6,True,20,0.15,100,0.026667,0.06582,0.012901,0.313636,0.025295,-0.060792,0.007766
+N_sweep,AP6c_inversion__D5_T1,D5_Stochastic,T1_mean,AP6,True,50,0.15,100,0.002,0.02,0.00392,0.158552,0.013229,-0.069934,0.003451
+N_sweep,AP6c_inversion__D5_T1,D5_Stochastic,T1_mean,AP6,True,100,0.15,100,0.0,0.0,0.0,0.0595,0.004962,-0.073463,0.001613
+N_sweep,AP6c_inversion__D5_T1,D5_Stochastic,T1_mean,AP6,True,200,0.15,100,0.0,0.0,0.0,0.010768,0.001121,-0.075533,0.000628
+N_sweep,AP6c_inversion__D5_Tmvz,D5_Stochastic,T_meanvar_z,AP6,True,20,0.15,100,0.988333,0.042739,0.008377,0.990238,0.007448,14.533761,0.310668
+N_sweep,AP6c_inversion__D5_Tmvz,D5_Stochastic,T_meanvar_z,AP6,True,50,0.15,100,1.0,0.0,0.0,1.0,0.0,23.751767,0.163441
+N_sweep,AP6c_inversion__D5_Tmvz,D5_Stochastic,T_meanvar_z,AP6,True,100,0.15,100,1.0,0.0,0.0,1.0,0.0,34.00236,0.122567
+N_sweep,AP6c_inversion__D5_Tmvz,D5_Stochastic,T_meanvar_z,AP6,True,200,0.15,100,1.0,0.0,0.0,1.0,0.0,48.404632,0.083516

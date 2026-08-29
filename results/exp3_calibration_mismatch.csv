@@ -1,0 +1,13 @@
+scheme,defense,sigma_cal,sigma_real,drift,realized_benign_fpr,fpr_blowup_ratio,attacker_tpr,cost_vs_T1
+T1_mean,D5_Stochastic,0.15,0.15,0.0,0.00857,0.86,0.77333,1.0
+T1_mean,D5_Stochastic,0.15,0.22,0.07,0.03714,3.71,0.67333,1.0
+T1_mean,D5_Stochastic,0.15,0.3,0.15,0.07143,7.14,0.58,1.0
+T_max,D5_Stochastic,0.15,0.15,0.0,0.01451,1.45,0.02,0.86
+T_max,D5_Stochastic,0.15,0.22,0.07,0.15187,15.19,0.12667,0.86
+T_max,D5_Stochastic,0.15,0.3,0.15,0.40945,40.95,0.40667,0.86
+T_median,D5_Stochastic,0.15,0.15,0.0,0.01165,1.16,0.18667,2.29
+T_median,D5_Stochastic,0.15,0.22,0.07,0.04308,4.31,0.28,2.29
+T_median,D5_Stochastic,0.15,0.3,0.15,0.1033,10.33,0.37333,2.29
+T_meanvar_z,D5_Stochastic,0.15,0.15,0.0,0.0,0.0,0.67333,2.57
+T_meanvar_z,D5_Stochastic,0.15,0.22,0.07,0.17758,17.76,0.74,2.57
+T_meanvar_z,D5_Stochastic,0.15,0.3,0.15,0.52066,52.07,0.84,2.57

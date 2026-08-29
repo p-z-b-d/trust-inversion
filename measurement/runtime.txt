@@ -1,0 +1,11 @@
+Phase 3 Pi-side inference timing — Cortex-A72
+============================================================
+Test windows per inference call: 4742
+Repeats per classifier: 5 (median reported)
+
+Classifier               median µs/win     best µs/win
+------------------------------------------------------------
+Vanilla LogReg                     0.3             0.3
+Vanilla RF                         9.5             9.5
+RHMD (n=5)                        35.5            34.8
+MTD (switch=5)                    43.0            42.9
